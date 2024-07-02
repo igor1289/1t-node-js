@@ -21,5 +21,5 @@ postRouter.post('/delete/:post_id', auth_middleware_dummy, dummy);
 
 app.use('/post', postRouter);
 
-app.listend(8080);
+app.listen(8080);
 
